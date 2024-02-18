@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: inline-flex;
+    font-weight: bold;
+ /* position: fixed;    */
+}
+
+.cards{
+background-image: url(../images/index.jpg);
+background-size: cover;
+background-position:50% 100%;
+background-attachment: fixed;
+height: 550px;
+}
+.cards .title{
+    color: azure;
+    text-align: center;
+    padding-top: 150px;
+}
+.title img{
+    /* width: 200px; */
+    height: 150px;
+}
+.title h2{
+    font-size: 70px;
+}
+
+.feat{
+    display: inline-block;
+    color: black;
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.imgs{
+    display: inline;
+}
+.imgs img{
+    float: left;
+    margin-bottom: 10px;
+    margin-top: -15px;
+}
+.imgs .mor{
+    float: left;
+    margin-left: 20px;
+    font-size: medium;
+    font-weight: 500;
+    font-style: oblique;
+    font-family: 'Libre Baskerville', serif;
+}
+.imgs .sale{
+    float: right;
+    margin-right: 10px;
+    font-size: medium;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about{
+    text-align: center;
+}
+.about .post{
+    padding-top: 60px;  
+}
+.post h2{
+    font-size: 40px;
+}
+.post p{
+    padding: 30px;
+    font-size: 18px;
+    text-align: center;
+    height: fit-content;
+    width: 80%;
+    margin-left: 150px;
+}
+
+.cont{
+    height: 650px;
+    background-image: url(../images/milestones.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.cont .num{
+    text-align: center;
+    color: white;
+    padding: 200px 0;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    width: 20%;
+    margin: 15px 20px;
+    display: inline-block;
+}
+.cont .num img{
+    width: 30%;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+.cont .num h4{
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: xxx-large;
+}
+.cont .num p{
+    text-align: center;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+video{
+    padding: 50px;
+}
+
+.join{
+    text-align: center;}
+.join h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    line-height: 60px;
+}
+.join p{
+    text-align: center;
+    max-width: 55rem;
+    margin: 0 auto;
+    line-height: 20px;
+}
